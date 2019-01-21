@@ -81,7 +81,7 @@ void listenBluetoothEvent() {
       stringComplete = true;
       Serial.println('\015');
     } else {
-      //Serial.write(inChar);
+      Serial.write(inChar);
       // add it to the inputString:
       cmd += inChar;
     }
